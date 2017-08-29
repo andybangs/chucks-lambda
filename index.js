@@ -4,8 +4,8 @@ exports.handler = function(event, context, callback) {
   const xray = new Xray();
   const url =
     event.location === 'cd'
-      ? 'http://cd.chucks85th.com/draft'
-      : 'http://chucks85th.com/draft';
+      ? 'http://chucks-cd.jjshanks.net/draft'
+      : 'http://chucks.jjshanks.net/draft';
 
   xray(url, 'tr', [
     {
